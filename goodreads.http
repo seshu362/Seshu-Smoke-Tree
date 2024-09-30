@@ -1,0 +1,11 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "address": "123 Main St, Springfield"
+}
+
+GET http://localhost:3000/users
+
+DELETE http://localhost:3000/delete-all
